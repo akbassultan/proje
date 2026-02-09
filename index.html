@@ -1,60 +1,51 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <title>Benim İlk GitHub Projem</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f6f8;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
+  <meta charset="UTF-8">
+  <title>İlk Git Projem</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(120deg, #6a11cb, #2575fc);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
 
-        .kutu {
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            width: 320px;
-            text-align: center;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-        }
+    .card {
+      background: rgba(255,255,255,0.15);
+      padding: 40px;
+      border-radius: 12px;
+      text-align: center;
+      backdrop-filter: blur(6px);
+    }
 
-        h1 {
-            color: #2c3e50;
-        }
+    button {
+      margin-top: 20px;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
 
-        p {
-            color: #555;
-        }
-
-        button {
-            margin-top: 15px;
-            padding: 10px 20px;
-            border: none;
-            background-color: #3498db;
-            color: white;
-            border-radius: 6px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #2980b9;
-        }
-    </style>
+    button:hover {
+      background: #ddd;
+    }
+  </style>
 </head>
 <body>
 
-    <div class="kutu">
-        <h1>Merhaba 👋</h1>
-        <p>Bu benim Git & GitHub ile yaptığım ilk web sayfası.</p>
-        <button onclick="alert('GitHub öğreniyorum 🚀')">
-            Tıkla
-        </button>
-    </div>
+  <div class="card">
+    <h1>Git & GitHub Öğreniyorum 🚀</h1>
+    <p>Bu sayfa Git ile versiyonlanıyor.</p>
+    <button onclick="alert('Commit atmadan push yok 😄')">
+      Tıkla
+    </button>
+  </div>
 
 </body>
 </html>
